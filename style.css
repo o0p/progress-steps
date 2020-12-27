@@ -27,3 +27,15 @@ body {
     max-width: 100%;
     width: 21.875rem;
 }
+
+.progress {
+    background-color: #3498db;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 0.25rem;
+    width: 0%;
+    z-index: -1;
+    transition: .4s ease;
+}
